@@ -25,7 +25,7 @@ warning: You appear to have cloned an empty repository.
 done.
 # ↑ bareレポジトリの中身が空だったよ警告 気にせず進める
 
-# ディレクトリ作成
+# ディレクトリ移動
 $ cd git_local
 # 適当なファイルを作成
 $ touch README.md 
