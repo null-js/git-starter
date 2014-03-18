@@ -8,14 +8,14 @@ git-starter
 ```
 ### リモート側（pullされる方）
 # ディレクトリ作成
-$ mkdir -p /path/to/work/repo.git
+$ mkdir -p /path/to/repo.git
 # ディレクトリ移動
-$ cd /path/to/work/repo.git
+$ cd /path/to/repo.git
 # bareリポジトリ作成
 $ git --bare init --shared
 
 ### ローカル側 (pullする方)
-# 作業ディレクトリ移動
+# 作業ディレクトリに移動
 $ cd /path/to/work
 # リモート側からcloneしてファイルを持ってくる 
 $ git clone /path/to/repo.git git_local
@@ -42,7 +42,7 @@ $ git push
 Counting objects: 3, done.
 Writing objects: 100% (3/3), 209 bytes | 0 bytes/s, done.
 Total 3 (delta 0), reused 0 (delta 0)
-To /path/to/work/repo.git
+To /path/to/repo.git
  * [new branch]      master -> master
 
 ```
