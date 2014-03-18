@@ -6,7 +6,7 @@ git-starter
 ### create remote repository (not use github)
 
 ```
-### リモート側（pullされる方）
+### リモート側（clone/pullされる方）
 # ディレクトリ作成
 $ mkdir -p /path/to/repo.git
 # ディレクトリ移動
@@ -14,7 +14,7 @@ $ cd /path/to/repo.git
 # bareリポジトリ作成
 $ git --bare init --shared
 
-### ローカル側 (pullする方)
+### ローカル側 (clone/pullする方)
 # 作業ディレクトリに移動
 $ cd /path/to/work
 # リモート側からcloneしてファイルを持ってくる 
